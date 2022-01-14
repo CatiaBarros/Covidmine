@@ -252,8 +252,8 @@ difficultyBtns && difficultyBtns.forEach(btn => {
 	});
 });
 
-console.log(`${boardSize} x ${boardSize} tiles`);
-console.log('bombs');
-console.log(bombs);
-console.log('numbers');
-console.log(numbers);
+// console.log(`${boardSize} x ${boardSize} tiles`);
+// console.log('bombs');
+// console.log(bombs);
+// console.log('numbers');
+// console.log(numbers);
