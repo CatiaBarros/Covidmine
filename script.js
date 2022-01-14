@@ -226,25 +226,25 @@ const checkVictory = () => {
 setup();
 
 /* click button for new game */
-restartBtn.addEventListener('click', function(e) {
+restartBtn && restartBtn.addEventListener('click', function(e) {
 	e.preventDefault();
 	clear();
 });
 
 // settings
-boardSizeBtn.addEventListener('change', function(e) {
+boardSizeBtn && boardSizeBtn.addEventListener('change', function(e) {
 	console.log(this.value);
 	size = this.value;
 	clear();
 });
 
-tileSizeBtn.addEventListener('change', function(e) {
+tileSizeBtn && tileSizeBtn.addEventListener('change', function(e) {
 	console.log(this.value);
 	tileSize = this.value;
 	clear();
 });
 
-difcencultyBtns.forEach(btn => {
+difficultyBtns && difficultyBtns.forEach(btn => {
 	btn.addEventListener('click', function() {
 		console.log(this.value);
 		bombFrequency = this.value;
