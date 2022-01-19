@@ -1,7 +1,7 @@
 console.clear();
 
 let size = 15; // size x size tiles
-let bombFrequency = 0.59; // percentage of bombs
+let bombFrequency = 0.55; // percentage of bombs
 let tileSize = 40;
 
 const board = document.querySelectorAll('.board')[0];
